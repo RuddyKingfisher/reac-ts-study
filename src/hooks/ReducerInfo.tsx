@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 
-type InfoState = { name: string, nickname: string }
+export type InfoState = { name: string, nickname: string }
 
 const reducer: React.Reducer<InfoState, EventTarget & HTMLInputElement> = (state, action) => {
     return {

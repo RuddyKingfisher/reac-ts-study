@@ -6,6 +6,8 @@ import { Info } from './hooks/Info';
 import { ReducerCounter } from './hooks/ReducerCounter';
 import { ReducerInfo } from './hooks/ReducerInfo';
 import { Average } from './hooks/Average';
+import { CallbackAverage } from './hooks/CallbackAverage';
+import { CustomInfo } from './hooks/CustomInfo';
 
 function App() {
 
@@ -28,6 +30,10 @@ function App() {
       <ReducerInfo />
       <hr />
       <Average/>
+      <hr />
+      <CallbackAverage/>
+      <hr/>
+      <CustomInfo/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useReducer } from "react"
 
-type CounterState = { value: number };
-type Action = { type: string }
+export type CounterState = { value: number };
+export type Action = { type: string }
 
 const reducer: React.Reducer<CounterState, Action> = (state: CounterState, action: Action) => {
     switch (action.type) {
